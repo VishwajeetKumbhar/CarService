@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./img-3.jpg);
+    font-size: 14px;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    border-radius: 50px;
+    display: flex;
+}
+.contact-left{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: #fff;
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    flex-basis: 40%;
+    padding: 40px;
+    background: #183b56;
+    color: #fff;
+}
+h1{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 40px;
+    color: #fff;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom:  1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    color:  #183b56;
+}
+.input-group span {
+    display: inline-block;
+    color: rgb(231, 89, 89);
+    padding-top: 5px;
+    height: 20px;
+}
+.input-group span i{
+    color: seagreen;
+}
+button{
+    text-align: center;
+    background: #183b56;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0 , 181, 0.3);
+}
+#submit-error{
+    margin-left: 20px;
+    color: rgb(231, 89, 89);
+}
+.contact-left h2{
+    color: #183b56;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h2{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.map iframe{
+    border: 3px solid #183b56;
+}

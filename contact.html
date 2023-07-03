@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Connect With us</h1>
+        <p>We would love to respond your queries and help you  succed. Feel free to get  in touch  with us</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h2>Send Your Request</h2>
+                <form action="">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for=""> Name</label>
+                            <input type="text" placeholder="Enter Your Name" id="contact-name" onkeyup="validatename()">
+                            <span id="name-error"></span>
+                        </div>
+                        <div class="input-group">
+                            <label for=""> Phone</label>
+                            <input type="text" placeholder=" +91 0123456789" id="contact-phone" onkeyup="validatephone()">
+                            <span id="phone-error"></span>
+                        </div>
+                    </div>
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for=""> Email</label>
+                            <input type="text" placeholder=" @gmail.com" id="contact-email" onkeyup="validateEmail()">
+                            <span id="email-error"></span>
+                        </div>
+                        <div class="input-group">
+                            <label for=""> Subject</label>
+                            <input type="text" placeholder="Product Demo" id="contact-subject" onkeyup="validateSubject()">
+                            <span id="subject-error"></span>
+                        </div>
+                    </div>
+
+                    <button onclick="return validateForm()" id="send-btn" >Submit</button>
+                    <span id="submit-error"></span>
+                </form>
+            </div>
+
+
+            <div class="contact-right">
+                <h2>Reach us </h2>
+                <table>
+                    
+                    <tr>
+                        <td>Email :</td>
+                        <td>ContactUs@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone : </td>
+                        <td>+91 9876543210</td>
+                    </tr>
+                    <tr>
+                        <td>Address :</td>
+                        <td>City Tower , Baner Pune</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div  class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30258.495477439505!2d73.76320125405569!3d18.559970432612598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2becff05dd3cb%3A0xa1911297fb7fab7d!2sBaner%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1686985993892!5m2!1sen!2sin" width="50%" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
