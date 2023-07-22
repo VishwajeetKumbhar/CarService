@@ -56,6 +56,7 @@ ul{
     /* border-radius: 20px; */
     padding: 0 10px;
     color: var(--primary-text-color);
+    transition:  ease 0.5s;
 }
 .hover-links:hover{
     background-color: #7e3d04;
@@ -196,7 +197,7 @@ ul{
     gap: 10px;
     max-width: 30%;
     text-align: center;
-    transition: transform 0.5s;
+    transition: ease 0.5s;
 }
 .features-card i{
     margin-bottom: 0px;
